@@ -1,0 +1,284 @@
+body {
+    background-color: #183C64;
+}
+figcaption{
+    color: white;
+    font-family: 'Oswald';
+    text-align: center;
+}
+.symbol {
+    width:20px;
+    height:20px;
+    margin-right:20px;
+    float:left;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.serieName {
+    float:left;
+    cursor:pointer;
+    font-family: 'Oswald';
+    font-size: 1.5vw;
+    
+}
+
+.item {
+    height:40px;
+    clear:both;
+    background-color: white;
+    padding-left: 5%;
+    
+}
+
+#spiritedgif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2, h3{
+    font-family: 'Oswald';
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.information{
+    text-align: center;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 50px;
+    /* color: white; */
+}
+#overimg{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 40%;
+    height: 50%;
+}
+#title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+#characters{
+    width: 100%;
+}
+
+
+#banner img{
+  
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}   
+
+
+
+#cits{
+    width:100px;
+    height: 100px;
+    left: -275px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif
+}
+
+.blurb{
+    text-align: center
+}
+
+div {
+    overflow-x: hidden;
+}
+#gross, #figcap, #top10anime, #directors{
+    width: 100%;
+    height: auto;
+}
+
+
+#vis{
+    display:flex;
+    flex-direction: row;
+    width: 100%
+}
+#veryleft{
+    width: 5%;
+}
+#right{
+    width: 27.5%;
+}
+#center{
+    width: 2.5%;
+}
+#left{
+    width: 65%;
+}
+
+#RT{
+    display: flex;
+    flex-direction: row;
+}
+#RT div{
+    width: 50%;
+}
+#container{
+    border: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+
+.d1{
+    text-align: center;
+    font-size: 2vw;
+
+}
+
+.img_description{
+    position: absolute;
+    top: -10;
+    bottom: 10;
+    left:5;
+    right: 0;
+    background:  black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility .2s;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.timelinediv:hover .img_description{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.timeline  {
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background: #183C64;
+    color:white;
+    overflow-x: auto;
+    padding-bottom: 50px;
+  } 
+
+.timeline ul {
+    background: #183C64;
+    padding: 50px 0;
+  }
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 1px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background: white;
+  }
+
+.timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: inherit;
+  }
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 100;
+    padding: 5px;
+    background: black;
+    font-family: "Oswald";
+    font-size: 0.75vw;
+  }
+
+.timeline ul li div img{
+    width: 100%;
+
+}
+
+
+  
+.timeline ul li:nth-child(odd) div {
+    left: 2vw;
+  }
+.timeline ul li:nth-child(even) div {
+    left: -12em;
+  }
+
+time {
+    display: block;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  
+
+.timeline ul li::after {
+    transition:  .5s ease-in-out;
+  }
+ 
+  
+.timeline ul li.in-view::after {
+    background: black;
+}
+  
+.timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+  }
+  .timeline ul li:nth-child(odd) div {
+    transform: translate3d(200px, 0, 0);
+  }
+  
+  .timeline ul li:nth-child(even) div {
+    transform: translate3d(-200px, 0, 0);
+  }
+  
+  .timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+#credits{
+    text-align: center;
+}
+
+.link{
+    color: white;
+    font-family: 'Oswald';
+}
+
+
+    
