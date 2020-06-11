@@ -12,6 +12,9 @@ Highcharts.chart('gross',{
     title:{
         text: 'WorldWide vs Japan Original Release Box Office Revenue'
     },
+    subtitle:{
+        text:' Source: IMDB'
+    },
     xAxis:{
         categories:[
             'Castle in the Sky',
@@ -190,6 +193,9 @@ Highcharts.chart('top10anime', {
     title:{
         text: 'Top 10 Highest Grossing Anime Films'
     },
+    subtitle:{
+        text:' Source: Wikipedia'
+    },
     xAxis:{
         categories: [
             'Your Name (2016)',
@@ -258,6 +264,9 @@ Highcharts.chart('RTGhibli', {
     chart: {
         type: 'pie'
     }, 
+    subtitle:{
+        text:' Source: Rotten Tomatoes'
+    },
     title:{
         text: 'Studio Ghibli on Rotten Tomatoes'
     },
@@ -295,6 +304,9 @@ Highcharts.chart('RTDisney',{
     },
     title:{
         text: 'Disney on Rotten Tomatoes'
+    },
+    subtitle:{
+        text:' Source: Rotten Tomatoes'
     },
     tooltip:{
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
